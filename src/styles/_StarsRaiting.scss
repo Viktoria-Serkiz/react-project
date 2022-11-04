@@ -1,0 +1,22 @@
+.rating {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &.on {
+    color: $yellow;
+    transform: scale(1.2);
+    transition: 0.2s all;
+  }
+  &.off {
+    color: $lightgrey;
+    transition: 0.1s all;
+  }
+}
+
