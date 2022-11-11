@@ -1,4 +1,5 @@
 import React from "react";
+import { Star } from "./Star";
 
 class StarRatingClass extends React.Component {
   constructor(props) {
@@ -6,7 +7,7 @@ class StarRatingClass extends React.Component {
 
     this.state = {
       stars: [],
-      rating: 0,
+      rating: 3,
       hovered: 0,
       selectedIcon: (
         <svg
