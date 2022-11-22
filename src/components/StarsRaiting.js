@@ -18,7 +18,7 @@ const StarsRaiting = ({ rate = 3 }) => {
             onMouseEnter={() => setHover(index)}
             onMouseLeave={() => setHover(value)}
           >
-            <Star star={setValue}></Star>
+            <Star star={value}></Star>
           </button>
         );
       })}
